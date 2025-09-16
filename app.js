@@ -42,7 +42,7 @@ app.get('/todo', function (req, res) {
     })
 
     /* Deletes an item from the to do list */
-    .get('/todo/delete/:id', function (req, res) {
+    .get('/todo/deletee/:id', function (req, res) {
         if (req.params.id != '') {
             todolist.splice(req.params.id, 1);
         }
